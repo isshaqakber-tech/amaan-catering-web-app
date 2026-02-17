@@ -7,6 +7,15 @@ export interface Service {
   category: 'Catering' | 'Pandal' | 'Decor' | 'Tunnel';
 }
 
+export interface VideoItem {
+  id: string;
+  title: string;
+  thumbnail: string;
+  videoUrl: string;
+  duration: string;
+  category: string;
+}
+
 export interface MenuItem {
   id: string;
   name: string;
